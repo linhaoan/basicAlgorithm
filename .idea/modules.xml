@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basicAlgorithm.iml" filepath="$PROJECT_DIR$/basicAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sortAdvance/sortAdvance.iml" filepath="$PROJECT_DIR$/sortAdvance/sortAdvance.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortBasic/sortBasic.iml" filepath="$PROJECT_DIR$/sortBasic/sortBasic.iml" />
     </modules>
   </component>

@@ -1,4 +1,4 @@
-package lesson6;
+package lesson1;
 
 import java.util.Arrays;
 
@@ -24,16 +24,4 @@ public class InsertionSortAdvance {
 
     }
 
-    public static void main(String[] args) {
-        int N = 50000;
-
-        Integer[] arr1 = lesson5.SortTestHelper.getRandomArray(N, 0, N);
-        Integer[] arr2 = Arrays.copyOf(arr1, arr1.length);
-        Integer[] arr3 = Arrays.copyOf(arr1, arr1.length);
-
-        SortTestHelper.testSort("lesson2.SelectionSort", arr1);
-        SortTestHelper.testSort("lesson6.InsertionSortAdvance", arr2);
-        SortTestHelper.testSort("lesson7.ShellSort", arr3);
-
-    }
 }
