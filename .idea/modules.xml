@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/heap/heap.iml" filepath="$PROJECT_DIR$/heap/heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortAdvance/sortAdvance.iml" filepath="$PROJECT_DIR$/sortAdvance/sortAdvance.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortBasic/sortBasic.iml" filepath="$PROJECT_DIR$/sortBasic/sortBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
     </modules>
   </component>
 </project>
