@@ -1,5 +1,7 @@
 package lesson1;
 
+import java.util.Vector;
+
 /*
     稠密图 - 邻接矩阵
  */
@@ -45,5 +47,16 @@ public class DenseGraph {
         if( !directed )
             g[w][v] = true;
         m ++;
+    }
+
+    // 返回图中一个顶点的所有邻边
+    // 由于java使用引用机制，返回一个Vector不会带来额外开销,
+    public Iterable<Integer> adj(int v) {
+        assert v >= 0 && v < n;
+        Vector<Integer> adjV = new Vector<Integer>();
+        for(int i = 0 ; i < n ; i ++ )
+            if( g[v][i] )
+                adjV.add(i);
+        return adjV;
     }
 }
